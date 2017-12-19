@@ -6,7 +6,11 @@ Created on Dec 19, 2017
 
 
 class SatRecodes(object):
-
+    """ This class contains the methods to get dicts for mapping SAT and ACT
+        scores to old or new values
+    
+    """    
+    
 
     def __init__(self):
         pass
