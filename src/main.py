@@ -4,7 +4,6 @@ Created on Dec 19, 2017
 @author: pbarwis
 '''
 
-
 import pandas as pd
 import numpy as np
 from recodes import SatRecodes
@@ -19,6 +18,9 @@ def example_df(lower_limit, upper_limit, colname, round_val):
     return(df)
 
 
+# ------------------
+# Usage examples
+# ------------------
 
 print('Recode new SAT (1600 scale) to old SAT (2400 scale)')    
 # generate sample data
